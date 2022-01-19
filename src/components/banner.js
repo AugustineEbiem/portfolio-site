@@ -8,15 +8,15 @@ const Banner = () => {
         <div className='row'>
           <h2>
             <div className='line'>
-              <span>Creating unique brands is</span>
+              <span>A Full stack developer based</span>
             </div>
             <div className='line'>
-              <span>what we do.</span>
+              <span>in South Shields</span>
             </div>
           </h2>
           <div className='btn-row'>
             <a href='/'>
-              More about us <RightArrow />
+              Projects <RightArrow />
             </a>
           </div>
         </div>

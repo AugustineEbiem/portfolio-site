@@ -11,15 +11,15 @@ const Navigation = () => {
             <ul className='nav-links'>
               <li>
                 <NavLink to='/case-studies' exact>
-                  Case Studies
+                  Projects
                 </NavLink>
               </li>
               <li>
                 <NavLink to='/approach' exact>
-                  Approach
+                  About me
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to='/services' exact>
                   Services
                 </NavLink>
@@ -28,7 +28,7 @@ const Navigation = () => {
                 <NavLink to='/about-us' exact>
                   About us
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div className='nav-column'>
@@ -38,29 +38,29 @@ const Navigation = () => {
                 <li className='nav-info-label'>Email</li>
                 <li>
                   <NavLink to='/contact' exact>
-                    Get in touch with us
+                    Get in touch with me
                   </NavLink>
                 </li>
-                <li>
+                {/* <li>
                   <NavLink to='/audit' exact>
                     Get a free audit
                   </NavLink>
-                </li>
+                </li> */}
               </ul>
               <ul className='nav-info'>
-                <li className='nav-info-label'>Headquarter</li>
+                <li className='nav-info-label'>Address</li>
                 <li>Route du Jura 49</li>
-                <li>1700 Fribourg</li>
-                <li>Switzerland</li>
+                {/* <li>1700 Fribourg</li> */}
+                <li>South Sheilds</li>
               </ul>
               <ul className='nav-info'>
                 <li className='nav-info-label'>Phone</li>
-                <li>+41 (0) 79 510 28 70</li>
+                <li>+44 7404838162</li>
               </ul>
-              <ul className='nav-info'>
+              {/* <ul className='nav-info'>
                 <li className='nav-info-label'>Legal</li>
                 <li>Privacy & Cookies</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
